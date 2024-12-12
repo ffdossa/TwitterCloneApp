@@ -72,8 +72,8 @@
 		AB17FAC72CB982A400D081EB = {
 			isa = PBXGroup;
 			children = (
-				AB17FAD22CB982A400D081EB /* TwitterCloneApp */,
 				ABA1FFC92CBC435D00D01DFD /* TwitterCloneApp.app */,
+				AB17FAD22CB982A400D081EB /* TwitterCloneApp */,
 			);
 			sourceTree = "<group>";
 		};
@@ -198,7 +198,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qq.TwitterCloneApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -228,7 +228,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.qq.TwitterCloneApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
