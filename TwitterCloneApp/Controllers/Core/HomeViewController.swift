@@ -156,7 +156,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-extension HomeViewController: TweetTableViewCellDelegate {
+extension HomeViewController: @preconcurrency TweetTableViewCellDelegate {
     func tweetTableViewCellDidTapReply() {
         print("REPLY")
     }

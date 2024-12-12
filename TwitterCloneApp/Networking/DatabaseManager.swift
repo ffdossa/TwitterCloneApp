@@ -12,7 +12,7 @@ import FirebaseFirestoreCombineSwift
 
 struct DatabaseManager {
 
-    static let shared = DatabaseManager()
+    nonisolated(unsafe) static let shared = DatabaseManager()
     
     let db = Firestore.firestore()
     let usersPath: String = "users"
