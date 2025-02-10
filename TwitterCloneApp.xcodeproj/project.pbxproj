@@ -19,32 +19,76 @@
 		AB17FB112CB983C400D081EB /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = AB17FB102CB983C400D081EB /* FirebaseFunctionsCombine-Community */; };
 		AB17FB132CB983C400D081EB /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = AB17FB122CB983C400D081EB /* FirebaseStorage */; };
 		AB17FB152CB983C400D081EB /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = AB17FB142CB983C400D081EB /* FirebaseStorageCombine-Community */; };
+		AB43D2342D5A0690003D39E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB43D2212D5A0690003D39E3 /* Assets.xcassets */; };
+		AB43D2352D5A0690003D39E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB43D2242D5A0690003D39E3 /* LaunchScreen.storyboard */; };
+		AB43D2362D5A0690003D39E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB43D2322D5A0690003D39E3 /* GoogleService-Info.plist */; };
+		AB43D2382D5A0690003D39E3 /* DirectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D20A2D5A0690003D39E3 /* DirectViewController.swift */; };
+		AB43D2392D5A0690003D39E3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D20B2D5A0690003D39E3 /* HomeViewController.swift */; };
+		AB43D23A2D5A0690003D39E3 /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D20C2D5A0690003D39E3 /* MainTabViewController.swift */; };
+		AB43D23B2D5A0690003D39E3 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D20D2D5A0690003D39E3 /* NotificationViewController.swift */; };
+		AB43D23C2D5A0690003D39E3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D20E2D5A0690003D39E3 /* SearchViewController.swift */; };
+		AB43D23D2D5A0690003D39E3 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2102D5A0690003D39E3 /* LogInViewController.swift */; };
+		AB43D23E2D5A0690003D39E3 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2112D5A0690003D39E3 /* SignUpViewController.swift */; };
+		AB43D23F2D5A0690003D39E3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2122D5A0690003D39E3 /* WelcomeViewController.swift */; };
+		AB43D2402D5A0690003D39E3 /* ProfileDataFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2142D5A0690003D39E3 /* ProfileDataFormViewController.swift */; };
+		AB43D2412D5A0690003D39E3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2152D5A0690003D39E3 /* ProfileViewController.swift */; };
+		AB43D2422D5A0690003D39E3 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2162D5A0690003D39E3 /* SearchResultViewController.swift */; };
+		AB43D2432D5A0690003D39E3 /* TweetComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2172D5A0690003D39E3 /* TweetComposeViewController.swift */; };
+		AB43D2442D5A0690003D39E3 /* TweetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2192D5A0690003D39E3 /* TweetModel.swift */; };
+		AB43D2452D5A0690003D39E3 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D21A2D5A0690003D39E3 /* UserModel.swift */; };
+		AB43D2462D5A0690003D39E3 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D21C2D5A0690003D39E3 /* AuthManager.swift */; };
+		AB43D2472D5A0690003D39E3 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D21D2D5A0690003D39E3 /* DatabaseManager.swift */; };
+		AB43D2482D5A0690003D39E3 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D21E2D5A0690003D39E3 /* StorageManager.swift */; };
+		AB43D2492D5A0690003D39E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2202D5A0690003D39E3 /* AppDelegate.swift */; };
+		AB43D24A2D5A0690003D39E3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2222D5A0690003D39E3 /* Extensions.swift */; };
+		AB43D24B2D5A0690003D39E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2252D5A0690003D39E3 /* SceneDelegate.swift */; };
+		AB43D24C2D5A0690003D39E3 /* AuthViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2272D5A0690003D39E3 /* AuthViewViewModel.swift */; };
+		AB43D24D2D5A0690003D39E3 /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2282D5A0690003D39E3 /* HomeViewViewModel.swift */; };
+		AB43D24E2D5A0690003D39E3 /* ProfileDataFormViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2292D5A0690003D39E3 /* ProfileDataFormViewViewModel.swift */; };
+		AB43D24F2D5A0690003D39E3 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D22A2D5A0690003D39E3 /* ProfileViewViewModel.swift */; };
+		AB43D2502D5A0690003D39E3 /* SearchViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D22B2D5A0690003D39E3 /* SearchViewViewModel.swift */; };
+		AB43D2512D5A0690003D39E3 /* TweetComposeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D22C2D5A0690003D39E3 /* TweetComposeViewViewModel.swift */; };
+		AB43D2522D5A0690003D39E3 /* ProfileHeaderTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D22E2D5A0690003D39E3 /* ProfileHeaderTableView.swift */; };
+		AB43D2532D5A0690003D39E3 /* SearchUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D22F2D5A0690003D39E3 /* SearchUserTableViewCell.swift */; };
+		AB43D2542D5A0690003D39E3 /* TweetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB43D2302D5A0690003D39E3 /* TweetTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ABA1FFC92CBC435D00D01DFD /* TwitterCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB43D20A2D5A0690003D39E3 /* DirectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectViewController.swift; sourceTree = "<group>"; };
+		AB43D20B2D5A0690003D39E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AB43D20C2D5A0690003D39E3 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
+		AB43D20D2D5A0690003D39E3 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		AB43D20E2D5A0690003D39E3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		AB43D2102D5A0690003D39E3 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		AB43D2112D5A0690003D39E3 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		AB43D2122D5A0690003D39E3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AB43D2142D5A0690003D39E3 /* ProfileDataFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataFormViewController.swift; sourceTree = "<group>"; };
+		AB43D2152D5A0690003D39E3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		AB43D2162D5A0690003D39E3 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		AB43D2172D5A0690003D39E3 /* TweetComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetComposeViewController.swift; sourceTree = "<group>"; };
+		AB43D2192D5A0690003D39E3 /* TweetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetModel.swift; sourceTree = "<group>"; };
+		AB43D21A2D5A0690003D39E3 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		AB43D21C2D5A0690003D39E3 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		AB43D21D2D5A0690003D39E3 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		AB43D21E2D5A0690003D39E3 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		AB43D2202D5A0690003D39E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB43D2212D5A0690003D39E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB43D2222D5A0690003D39E3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		AB43D2232D5A0690003D39E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB43D2252D5A0690003D39E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB43D2272D5A0690003D39E3 /* AuthViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewViewModel.swift; sourceTree = "<group>"; };
+		AB43D2282D5A0690003D39E3 /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
+		AB43D2292D5A0690003D39E3 /* ProfileDataFormViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataFormViewViewModel.swift; sourceTree = "<group>"; };
+		AB43D22A2D5A0690003D39E3 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
+		AB43D22B2D5A0690003D39E3 /* SearchViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewViewModel.swift; sourceTree = "<group>"; };
+		AB43D22C2D5A0690003D39E3 /* TweetComposeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetComposeViewViewModel.swift; sourceTree = "<group>"; };
+		AB43D22E2D5A0690003D39E3 /* ProfileHeaderTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderTableView.swift; sourceTree = "<group>"; };
+		AB43D22F2D5A0690003D39E3 /* SearchUserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserTableViewCell.swift; sourceTree = "<group>"; };
+		AB43D2302D5A0690003D39E3 /* TweetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetTableViewCell.swift; sourceTree = "<group>"; };
+		AB43D2322D5A0690003D39E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AB43D2332D5A0690003D39E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA1FFC92CBC435D00D01DFD /* TwitterCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = TwitterCloneApp.app; path = "/Users/ffdossa/Documents/Documents - Andrii’s MacBook Air/GitHub/TwitterCloneApp/build/Debug-iphoneos/TwitterCloneApp.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		AB17FAE22CB982A600D081EB /* Exceptions for "TwitterCloneApp" folder in "TwitterCloneApp" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = AB17FACF2CB982A400D081EB /* TwitterCloneApp */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		AB17FAD22CB982A400D081EB /* TwitterCloneApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				AB17FAE22CB982A600D081EB /* Exceptions for "TwitterCloneApp" folder in "TwitterCloneApp" target */,
-			);
-			path = TwitterCloneApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AB17FACD2CB982A400D081EB /* Frameworks */ = {
@@ -72,9 +116,112 @@
 		AB17FAC72CB982A400D081EB = {
 			isa = PBXGroup;
 			children = (
-				ABA1FFC92CBC435D00D01DFD /* TwitterCloneApp.app */,
-				AB17FAD22CB982A400D081EB /* TwitterCloneApp */,
+				AB43D2612D5A0853003D39E3 /* New Group */,
+				AB43D2562D5A06E1003D39E3 /* Controllers */,
+				AB43D25F2D5A07F2003D39E3 /* Views */,
+				AB43D25D2D5A07DD003D39E3 /* ViewModels */,
+				AB43D2592D5A0715003D39E3 /* Networking */,
+				AB43D25B2D5A0715003D39E3 /* Models */,
+				AB43D25C2D5A074E003D39E3 /* Resources */,
+				AB43D2322D5A0690003D39E3 /* GoogleService-Info.plist */,
+				AB43D2332D5A0690003D39E3 /* Info.plist */,
 			);
+			sourceTree = "<group>";
+		};
+		AB43D2562D5A06E1003D39E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB43D2582D5A0702003D39E3 /* Starting */,
+				AB43D2572D5A06F9003D39E3 /* Core */,
+				AB43D2142D5A0690003D39E3 /* ProfileDataFormViewController.swift */,
+				AB43D2152D5A0690003D39E3 /* ProfileViewController.swift */,
+				AB43D2162D5A0690003D39E3 /* SearchResultViewController.swift */,
+				AB43D2172D5A0690003D39E3 /* TweetComposeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AB43D2572D5A06F9003D39E3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AB43D20C2D5A0690003D39E3 /* MainTabViewController.swift */,
+				AB43D20B2D5A0690003D39E3 /* HomeViewController.swift */,
+				AB43D20E2D5A0690003D39E3 /* SearchViewController.swift */,
+				AB43D20A2D5A0690003D39E3 /* DirectViewController.swift */,
+				AB43D20D2D5A0690003D39E3 /* NotificationViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AB43D2582D5A0702003D39E3 /* Starting */ = {
+			isa = PBXGroup;
+			children = (
+				AB43D2102D5A0690003D39E3 /* LogInViewController.swift */,
+				AB43D2112D5A0690003D39E3 /* SignUpViewController.swift */,
+				AB43D2122D5A0690003D39E3 /* WelcomeViewController.swift */,
+			);
+			path = Starting;
+			sourceTree = "<group>";
+		};
+		AB43D2592D5A0715003D39E3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				AB43D21C2D5A0690003D39E3 /* AuthManager.swift */,
+				AB43D21D2D5A0690003D39E3 /* DatabaseManager.swift */,
+				AB43D21E2D5A0690003D39E3 /* StorageManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		AB43D25B2D5A0715003D39E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB43D2192D5A0690003D39E3 /* TweetModel.swift */,
+				AB43D21A2D5A0690003D39E3 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB43D25C2D5A074E003D39E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB43D2202D5A0690003D39E3 /* AppDelegate.swift */,
+				AB43D2212D5A0690003D39E3 /* Assets.xcassets */,
+				AB43D2222D5A0690003D39E3 /* Extensions.swift */,
+				AB43D2242D5A0690003D39E3 /* LaunchScreen.storyboard */,
+				AB43D2252D5A0690003D39E3 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AB43D25D2D5A07DD003D39E3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				AB43D2272D5A0690003D39E3 /* AuthViewViewModel.swift */,
+				AB43D2282D5A0690003D39E3 /* HomeViewViewModel.swift */,
+				AB43D2292D5A0690003D39E3 /* ProfileDataFormViewViewModel.swift */,
+				AB43D22A2D5A0690003D39E3 /* ProfileViewViewModel.swift */,
+				AB43D22B2D5A0690003D39E3 /* SearchViewViewModel.swift */,
+				AB43D22C2D5A0690003D39E3 /* TweetComposeViewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		AB43D25F2D5A07F2003D39E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB43D22E2D5A0690003D39E3 /* ProfileHeaderTableView.swift */,
+				AB43D22F2D5A0690003D39E3 /* SearchUserTableViewCell.swift */,
+				AB43D2302D5A0690003D39E3 /* TweetTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB43D2612D5A0853003D39E3 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,9 +238,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				AB17FAD22CB982A400D081EB /* TwitterCloneApp */,
 			);
 			name = TwitterCloneApp;
 			packageProductDependencies = (
@@ -157,6 +301,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB43D2342D5A0690003D39E3 /* Assets.xcassets in Resources */,
+				AB43D2352D5A0690003D39E3 /* LaunchScreen.storyboard in Resources */,
+				AB43D2362D5A0690003D39E3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,10 +314,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB43D2382D5A0690003D39E3 /* DirectViewController.swift in Sources */,
+				AB43D2392D5A0690003D39E3 /* HomeViewController.swift in Sources */,
+				AB43D23A2D5A0690003D39E3 /* MainTabViewController.swift in Sources */,
+				AB43D23B2D5A0690003D39E3 /* NotificationViewController.swift in Sources */,
+				AB43D23C2D5A0690003D39E3 /* SearchViewController.swift in Sources */,
+				AB43D23D2D5A0690003D39E3 /* LogInViewController.swift in Sources */,
+				AB43D23E2D5A0690003D39E3 /* SignUpViewController.swift in Sources */,
+				AB43D23F2D5A0690003D39E3 /* WelcomeViewController.swift in Sources */,
+				AB43D2402D5A0690003D39E3 /* ProfileDataFormViewController.swift in Sources */,
+				AB43D2412D5A0690003D39E3 /* ProfileViewController.swift in Sources */,
+				AB43D2422D5A0690003D39E3 /* SearchResultViewController.swift in Sources */,
+				AB43D2432D5A0690003D39E3 /* TweetComposeViewController.swift in Sources */,
+				AB43D2442D5A0690003D39E3 /* TweetModel.swift in Sources */,
+				AB43D2452D5A0690003D39E3 /* UserModel.swift in Sources */,
+				AB43D2462D5A0690003D39E3 /* AuthManager.swift in Sources */,
+				AB43D2472D5A0690003D39E3 /* DatabaseManager.swift in Sources */,
+				AB43D2482D5A0690003D39E3 /* StorageManager.swift in Sources */,
+				AB43D2492D5A0690003D39E3 /* AppDelegate.swift in Sources */,
+				AB43D24A2D5A0690003D39E3 /* Extensions.swift in Sources */,
+				AB43D24B2D5A0690003D39E3 /* SceneDelegate.swift in Sources */,
+				AB43D24C2D5A0690003D39E3 /* AuthViewViewModel.swift in Sources */,
+				AB43D24D2D5A0690003D39E3 /* HomeViewViewModel.swift in Sources */,
+				AB43D24E2D5A0690003D39E3 /* ProfileDataFormViewViewModel.swift in Sources */,
+				AB43D24F2D5A0690003D39E3 /* ProfileViewViewModel.swift in Sources */,
+				AB43D2502D5A0690003D39E3 /* SearchViewViewModel.swift in Sources */,
+				AB43D2512D5A0690003D39E3 /* TweetComposeViewViewModel.swift in Sources */,
+				AB43D2522D5A0690003D39E3 /* ProfileHeaderTableView.swift in Sources */,
+				AB43D2532D5A0690003D39E3 /* SearchUserTableViewCell.swift in Sources */,
+				AB43D2542D5A0690003D39E3 /* TweetTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB43D2242D5A0690003D39E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB43D2232D5A0690003D39E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		AB17FAE42CB982A600D081EB /* Debug */ = {
