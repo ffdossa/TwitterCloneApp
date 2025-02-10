@@ -116,12 +116,11 @@
 		AB17FAC72CB982A400D081EB = {
 			isa = PBXGroup;
 			children = (
-				AB43D2612D5A0853003D39E3 /* New Group */,
-				AB43D2562D5A06E1003D39E3 /* Controllers */,
-				AB43D25F2D5A07F2003D39E3 /* Views */,
-				AB43D25D2D5A07DD003D39E3 /* ViewModels */,
-				AB43D2592D5A0715003D39E3 /* Networking */,
 				AB43D25B2D5A0715003D39E3 /* Models */,
+				AB43D25D2D5A07DD003D39E3 /* ViewModels */,
+				AB43D25F2D5A07F2003D39E3 /* Views */,
+				AB43D2562D5A06E1003D39E3 /* Controllers */,
+				AB43D2592D5A0715003D39E3 /* Networking */,
 				AB43D25C2D5A074E003D39E3 /* Resources */,
 				AB43D2322D5A0690003D39E3 /* GoogleService-Info.plist */,
 				AB43D2332D5A0690003D39E3 /* Info.plist */,
@@ -215,13 +214,6 @@
 				AB43D2302D5A0690003D39E3 /* TweetTableViewCell.swift */,
 			);
 			path = Views;
-			sourceTree = "<group>";
-		};
-		AB43D2612D5A0853003D39E3 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
