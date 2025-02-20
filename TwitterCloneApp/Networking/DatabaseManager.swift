@@ -5,14 +5,13 @@
 //  Created by Andrii Marchuk on 11.10.2024.
 //
 
-import Firebase
+@preconcurrency import Firebase
 import Combine
 import FirebaseAuth
 import FirebaseFirestoreCombineSwift
 
-struct DatabaseManager {
-
-    nonisolated(unsafe) static let shared = DatabaseManager()
+struct DatabaseManager : Sendable {
+    static let shared = DatabaseManager()
     
     let db = Firestore.firestore()
     let usersPath: String = "users"

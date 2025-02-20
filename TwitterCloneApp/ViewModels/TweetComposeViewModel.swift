@@ -9,8 +9,8 @@ import Combine
 import Foundation
 import FirebaseAuth
 
-final class TweetComposeViewViewModel: ObservableObject {
-    
+final class TweetComposeViewModel: ObservableObject {
+
     private var subscriptions: Set<AnyCancellable> = []
     private var user: UserModel?
     

@@ -9,7 +9,7 @@ import UIKit
 
 class SearchViewController: UIViewController {
     
-    var viewModel: SearchViewViewModel
+    var viewModel: SearchViewModel
     
     private let searchController: UISearchController = {
         let searchController = UISearchController(searchResultsController: SearchResultViewController())
@@ -28,7 +28,7 @@ class SearchViewController: UIViewController {
         return label
     }()
     
-    init(viewModel: SearchViewViewModel) {
+    init(viewModel: SearchViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }

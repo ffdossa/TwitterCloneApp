@@ -11,7 +11,7 @@ import Combine
 
 class ProfileDataFormViewController: UIViewController {
     
-    private var viewModel = ProfileDataFormViewViewModel()
+    private var viewModel = ProfileDataFormViewModel()
     private var subscriptions: Set<AnyCancellable> = []
     
     private let datePicker: UIDatePicker = {

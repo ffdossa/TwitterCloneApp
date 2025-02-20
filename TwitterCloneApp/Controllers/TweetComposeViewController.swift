@@ -12,7 +12,7 @@ import Foundation
 
 class TweetComposeViewController: UIViewController {
     
-    private var viewModel = TweetComposeViewViewModel()
+    private var viewModel = TweetComposeViewModel()
     private var subscriptions: Set<AnyCancellable> = []
     
     private var profileImageImageView: UIImageView = {

@@ -39,3 +39,14 @@ extension UIView {
     }
 }
 
+
+
+//extension UILabel {
+//    static func subLabel() -> UILabel  {
+//        let label = UILabel()
+//        label.translatesAutoresizingMaskIntoConstraints = false
+//        label.textColor = .secondaryLabel
+//        label.font = .systemFont(ofSize: 15, weight: .regular)
+//        return label
+//    }()
+//}

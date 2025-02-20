@@ -11,7 +11,7 @@ import Combine
 import FirebaseAuth
 import FirebaseStorage
 
-final class ProfileDataFormViewViewModel: ObservableObject {
+final class ProfileDataFormViewModel: ObservableObject {
     
     private var subscriptions: Set<AnyCancellable> = []
     

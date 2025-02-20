@@ -10,8 +10,8 @@ import Firebase
 import FirebaseAuth
 import Combine
 
-final class AuthViewViewModel: ObservableObject {
-    
+
+final class AuthViewModel: ObservableObject {
     @Published var email: String?
     @Published var password: String?
     @Published var isAuthFormValidate: Bool = false

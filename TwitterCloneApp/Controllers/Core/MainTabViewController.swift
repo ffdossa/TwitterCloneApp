@@ -20,7 +20,7 @@ class MainTabViewController: UITabBarController {
 
     func setTabs() {
         let homeNavigation = UINavigationController(rootViewController: HomeViewController())
-        let searchNavigation = UINavigationController(rootViewController: SearchViewController(viewModel: SearchViewViewModel()))
+        let searchNavigation = UINavigationController(rootViewController: SearchViewController(viewModel: SearchViewModel()))
         let notificationNavigation = UINavigationController(rootViewController: NotificationViewController())
         let directNavigation = UINavigationController(rootViewController: DirectViewController())
         

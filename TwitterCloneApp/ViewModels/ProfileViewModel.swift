@@ -15,7 +15,7 @@ enum ProfileFollowsState {
     case userCurrentPerson
 }
 
-final class ProfileViewViewModel: ObservableObject {
+final class ProfileViewModel: ObservableObject {
     
     @Published var user: UserModel
     @Published var error: String?

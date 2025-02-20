@@ -12,7 +12,7 @@ import FirebaseAuth
 
 class HomeViewController: UIViewController {
     
-    private var viewModel = HomeViewViewModel()
+    private var viewModel = HomeViewModel()
     private var subscriptions: Set<AnyCancellable> = []
     
     private let timelineTableView: UITableView = {
@@ -126,7 +126,7 @@ class HomeViewController: UIViewController {
     
     @objc func didTapProfile() {
         guard let user = viewModel.user else { return }
-        let profileViewModel = ProfileViewViewModel(user: user)
+        let profileViewModel = ProfileViewModel(user: user)
         let vc = ProfileViewController(viewModel: profileViewModel)
         navigationController?.pushViewController(vc, animated: true)
     }

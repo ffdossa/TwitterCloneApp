@@ -15,7 +15,6 @@ enum FirestorageError: Error {
 }
 
 final class StorageManager {
-    
     nonisolated(unsafe) static let shared = StorageManager()
     
     let storage = Storage.storage()

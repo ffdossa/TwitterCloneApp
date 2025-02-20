@@ -8,8 +8,8 @@
 import Foundation
 import Combine
 
-class SearchViewViewModel {
-    
+class SearchViewModel {
+
     var subscriptions: Set<AnyCancellable> = []
     
     func search(with query: String, _ completion: @escaping ([UserModel]) -> Void) {

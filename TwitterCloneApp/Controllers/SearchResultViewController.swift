@@ -65,7 +65,7 @@ extension SearchResultViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let user = users[indexPath.row]
-        let profileViewModel = ProfileViewViewModel(user: user)
+        let profileViewModel = ProfileViewModel(user: user)
         let profileViewController = ProfileViewController(viewModel: profileViewModel)
         present(profileViewController, animated: true)
     }

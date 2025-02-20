@@ -9,8 +9,7 @@ import Foundation
 import Combine
 import FirebaseAuth
 
-final class HomeViewViewModel: ObservableObject {
-    
+final class HomeViewModel: ObservableObject {
     @Published var user: UserModel?
     @Published var error: String?
     @Published var tweets: [TweetModel] = []

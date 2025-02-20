@@ -12,7 +12,7 @@ import SDWebImage
 class ProfileViewController: UIViewController {
     
     private var isStatusBarHidden: Bool = true
-    private var viewModel: ProfileViewViewModel
+    private var viewModel: ProfileViewModel
     private var subscriptions: Set<AnyCancellable> = []
     
     private lazy var headerView = ProfileHeaderTableView(frame: CGRect(x: 0, y: 0, width: profileTableView.frame.width, height: 384))
@@ -32,7 +32,7 @@ class ProfileViewController: UIViewController {
         return tableView
     }()
     
-    init(viewModel: ProfileViewViewModel) {
+    init(viewModel: ProfileViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
     }
