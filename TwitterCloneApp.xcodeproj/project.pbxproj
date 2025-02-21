@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB145A542D6747D200F6B89E /* StartingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB145A532D6747D200F6B89E /* StartingButton.swift */; };
 		AB17FAFE2CB9837E00D081EB /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = AB17FAFD2CB9837E00D081EB /* SDWebImage */; };
 		AB17FB002CB9837E00D081EB /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AB17FAFF2CB9837E00D081EB /* SDWebImageMapKit */; };
 		AB17FB032CB983C400D081EB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = AB17FB022CB983C400D081EB /* FirebaseAuth */; };
@@ -55,7 +54,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AB145A532D6747D200F6B89E /* StartingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingButton.swift; sourceTree = "<group>"; };
 		AB43D20A2D5A0690003D39E3 /* DirectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectViewController.swift; sourceTree = "<group>"; };
 		AB43D20B2D5A0690003D39E3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AB43D20C2D5A0690003D39E3 /* MainTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabViewController.swift; sourceTree = "<group>"; };
@@ -231,7 +229,6 @@
 			isa = PBXGroup;
 			children = (
 				AB43D2222D5A0690003D39E3 /* Extensions.swift */,
-				AB145A532D6747D200F6B89E /* StartingButton.swift */,
 			);
 			path = Subviews;
 			sourceTree = "<group>";
@@ -352,7 +349,6 @@
 				AB43D24F2D5A0690003D39E3 /* ProfileViewModel.swift in Sources */,
 				AB43D2502D5A0690003D39E3 /* SearchViewModel.swift in Sources */,
 				AB43D2512D5A0690003D39E3 /* TweetComposeViewModel.swift in Sources */,
-				AB145A542D6747D200F6B89E /* StartingButton.swift in Sources */,
 				AB43D2522D5A0690003D39E3 /* ProfileHeaderTableView.swift in Sources */,
 				AB43D2532D5A0690003D39E3 /* SearchUserTableViewCell.swift in Sources */,
 				AB43D2542D5A0690003D39E3 /* TweetTableViewCell.swift in Sources */,

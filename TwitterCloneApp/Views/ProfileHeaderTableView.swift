@@ -122,14 +122,8 @@ class ProfileHeaderTableView: UIView {
         return label
     }()
     
-    var userNameLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = .secondaryLabel
-        label.font = .systemFont(ofSize: 15, weight: .regular)
-        return label
-    }()
-    
+    var userNameLabel = UILabel(font: .systemFont(ofSize: 15, weight: .regular))
+
     var bioLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
@@ -139,69 +133,21 @@ class ProfileHeaderTableView: UIView {
         return label
     }()
     
-    var locationLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = .systemFont(ofSize: 13, weight: .regular)
-        label.textColor = .secondaryLabel
-        return label
-    }()
-    
-    var linkLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = .systemFont(ofSize: 13, weight: .regular)
-        label.textColor = .secondaryLabel
-        return label
-    }()
-    
-    var birthDateLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = .systemFont(ofSize: 13, weight: .regular)
-        label.textColor = .secondaryLabel
-        return label
-    }()
-    
-    let joinedDateLabel: UILabel = {
-        let label = UILabel()
-        label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = .systemFont(ofSize: 13, weight: .regular)
-        label.textColor = .secondaryLabel
-        return label
-    }()
-    
-    private let locationImageView: UIImageView = {
-        let imageView = UIImageView()
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = UIImage(systemName: "map", withConfiguration: UIImage.SymbolConfiguration(pointSize: 12, weight: .semibold))?.withRenderingMode(.alwaysTemplate)
-        imageView.tintColor = UIColor.secondaryLabel
-        return imageView
-    }()
-    
-    private let linkImageView: UIImageView = {
-        let imageView = UIImageView()
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = UIImage(systemName: "link", withConfiguration: UIImage.SymbolConfiguration(pointSize: 12, weight: .semibold))?.withRenderingMode(.alwaysTemplate)
-        imageView.tintColor = UIColor.secondaryLabel
-        return imageView
-    }()
-    
-    private let birthDateImageView: UIImageView = {
-        let imageView = UIImageView()
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = UIImage(systemName: "balloon.2", withConfiguration: UIImage.SymbolConfiguration(pointSize: 12, weight: .semibold))?.withRenderingMode(.alwaysTemplate)
-        imageView.tintColor = UIColor.secondaryLabel
-        return imageView
-    }()
-    
-    private let joinedDateImageView: UIImageView = {
-        let imageView = UIImageView()
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = UIImage(systemName: "calendar", withConfiguration: UIImage.SymbolConfiguration(pointSize: 12, weight: .semibold))?.withRenderingMode(.alwaysTemplate)
-        imageView.tintColor = UIColor.secondaryLabel
-        return imageView
-    }()
+    var locationLabel = UILabel(font: .systemFont(ofSize: 13, weight: .regular))
+
+    var linkLabel = UILabel(font: .systemFont(ofSize: 13, weight: .regular))
+
+    var birthDateLabel = UILabel(font: .systemFont(ofSize: 13, weight: .regular))
+
+    var joinedDateLabel = UILabel(font: .systemFont(ofSize: 13, weight: .regular))
+
+    private let locationImageView = UIImageView(image: "map")
+
+    private let linkImageView = UIImageView(image: "link")
+
+    private let birthDateImageView = UIImageView(image: "balloon.2")
+
+    private let joinedDateImageView = UIImageView(image: "calendar")
     
     var followingCountLabel: UILabel = {
         let label = UILabel()
@@ -222,7 +168,7 @@ class ProfileHeaderTableView: UIView {
     var followersCountLabel: UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.font = .systemFont(ofSize: 13, weight: .semibold)
+        label.font = .systemFont(ofSize: 13, weight: .bold)
         return label
     }()
     
@@ -248,7 +194,28 @@ class ProfileHeaderTableView: UIView {
         super.init(frame: frame)
         backgroundColor = .systemBackground
         
-        addSubviews(profileHeaderImageView, borderProfileImageImageView, profileImageImageView, editProfileButton, displayNameLabel, userNameLabel, bioLabel, locationImageView, locationLabel, linkImageView, linkLabel, birthDateImageView, birthDateLabel, joinedDateImageView, joinedDateLabel, followingCountLabel, followingTextLabel, followersCountLabel, followersTextLabel, sectionStackView, indicator)
+        addSubviews(profileHeaderImageView,
+                    borderProfileImageImageView,
+                    profileImageImageView,
+                    editProfileButton,
+                    displayNameLabel,
+                    userNameLabel,
+                    bioLabel,
+                    locationImageView,
+                    locationLabel,
+                    linkImageView,
+                    linkLabel,
+                    birthDateImageView,
+                    birthDateLabel,
+                    joinedDateImageView,
+                    joinedDateLabel,
+                    followingCountLabel,
+                    followingTextLabel,
+                    followersCountLabel,
+                    followersTextLabel,
+                    sectionStackView,
+                    indicator)
+        
         addConstraints()
         addStackButton()
         setupFollowButtonAction()

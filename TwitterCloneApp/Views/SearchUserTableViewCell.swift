@@ -31,7 +31,7 @@ class SearchUserTableViewCell: UITableViewCell {
         return label
     }()
     
-    private let usernameLabel: UILabel = {
+    private let userNameLabel: UILabel = {
         let label = UILabel()
         label.textColor = .secondaryLabel
         label.font = .systemFont(ofSize: 14, weight: .regular)
@@ -41,7 +41,7 @@ class SearchUserTableViewCell: UITableViewCell {
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
-        contentView.addSubviews(profileImageImageView, displayNameLabel, usernameLabel)
+        contentView.addSubviews(profileImageImageView, displayNameLabel, userNameLabel)
         addConstraints()
     }
     
@@ -60,14 +60,14 @@ class SearchUserTableViewCell: UITableViewCell {
             displayNameLabel.leadingAnchor.constraint(equalTo: profileImageImageView.trailingAnchor, constant: 8),
             displayNameLabel.topAnchor.constraint(equalTo: profileImageImageView.topAnchor),
             
-            usernameLabel.topAnchor.constraint(equalTo: displayNameLabel.bottomAnchor, constant: 2),
-            usernameLabel.leadingAnchor.constraint(equalTo: displayNameLabel.leadingAnchor),
+            userNameLabel.topAnchor.constraint(equalTo: displayNameLabel.bottomAnchor, constant: 2),
+            userNameLabel.leadingAnchor.constraint(equalTo: displayNameLabel.leadingAnchor),
         ])
     }
     
     func configureUsers(with user: UserModel) {
         profileImageImageView.sd_setImage(with: URL(string: user.profileImage))
         displayNameLabel.text = user.displayName
-        usernameLabel.text = "@\(user.userName)"
+        userNameLabel.text = "@\(user.userName)"
     }
 }

@@ -49,7 +49,8 @@ final class ProfileViewModel: ObservableObject {
     
     func followingUser() {
         guard let personalUserID = Auth.auth().currentUser?.uid else { return }
-        DatabaseManager.shared.collectionFollows(follower: personalUserID, following: user.id)
+        DatabaseManager.shared.collectionFollows(follower: personalUserID,
+                                                 following: user.id)
             .sink { completion in
                 if case .failure(let error) = completion {
                     print(error.localizedDescription)
@@ -62,7 +63,8 @@ final class ProfileViewModel: ObservableObject {
     
     func unfollowUser() {
         guard let personalUserID = Auth.auth().currentUser?.uid else { return }
-        DatabaseManager.shared.collectionFollows(delete: personalUserID, following: user.id)
+        DatabaseManager.shared.collectionFollows(delete: personalUserID,
+                                                 following: user.id)
             .sink { completion in
                 if case .failure(let error) = completion {
                     print(error.localizedDescription)
@@ -79,7 +81,8 @@ final class ProfileViewModel: ObservableObject {
         else {
             currentFollowsState = .userCurrentPerson
             return }
-        DatabaseManager.shared.collectionFollows(isUserFollow: personalUserID, following: user.id)
+        DatabaseManager.shared.collectionFollows(isUserFollow: personalUserID,
+                                                 following: user.id)
             .sink { completion in
                 if case .failure(let error) = completion {
                     print(error.localizedDescription)

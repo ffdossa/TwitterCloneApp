@@ -72,7 +72,7 @@ class HomeViewController: UIViewController {
     
     private func handleAuthentication() {
         if Auth.auth().currentUser == nil {
-            let vc = UINavigationController(rootViewController: WelcomeViewController())
+            let vc = UINavigationController(rootViewController: StartingViewController())
             vc.modalPresentationStyle = .fullScreen
             present(vc, animated: false)
         }
