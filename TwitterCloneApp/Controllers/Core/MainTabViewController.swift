@@ -15,10 +15,10 @@ class MainTabViewController: UITabBarController {
         tabBar.tintColor = .systemIndigo
         tabBar.unselectedItemTintColor = .systemGray2
         
-        setTabs()
+        setupTabs()
     }
 
-    func setTabs() {
+    func setupTabs() {
         let homeNavigation = UINavigationController(rootViewController: HomeViewController())
         let searchNavigation = UINavigationController(rootViewController: SearchViewController(viewModel: SearchViewModel()))
         let notificationNavigation = UINavigationController(rootViewController: NotificationViewController())

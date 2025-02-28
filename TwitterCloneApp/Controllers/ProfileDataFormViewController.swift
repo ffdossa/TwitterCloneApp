@@ -110,7 +110,7 @@ class ProfileDataFormViewController: UIViewController {
         label.font = .systemFont(ofSize: 15, weight: .semibold)
         return label
     }()
-    
+
     private let displayNameTextField: UITextField = {
         let textField = UITextField()
         textField.translatesAutoresizingMaskIntoConstraints = false
@@ -207,7 +207,22 @@ class ProfileDataFormViewController: UIViewController {
         view.backgroundColor = .systemGray6
         isModalInPresentation = true
         view.addSubviews(scrollView)
-        scrollView.addSubviews(profileHeaderImageView, borderProfileImageImageView, profileImageImageView,  displayNameLabel, userNameLabel, bioLabel, locationLabel, websiteLabel, birthDateLabel, displayNameTextField, userNameTextField, bioTextField, locationTextField, websiteTextField, birthDateTextField, sumbitButton)
+        scrollView.addSubviews(profileHeaderImageView,
+                               borderProfileImageImageView,
+                               profileImageImageView,
+                               displayNameLabel,
+                               userNameLabel,
+                               bioLabel,
+                               locationLabel,
+                               websiteLabel,
+                               birthDateLabel,
+                               displayNameTextField,
+                               userNameTextField,
+                               bioTextField,
+                               locationTextField,
+                               websiteTextField,
+                               birthDateTextField,
+                               sumbitButton)
         addConstraints()
         bindsViews()
         createDatePicker()

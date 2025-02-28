@@ -38,7 +38,8 @@ class HomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.addSubviews(timelineTableView, composeTweetButton)
+        view.addSubviews(timelineTableView,
+                         composeTweetButton)
         timelineTableView.delegate = self
         timelineTableView.dataSource = self
         setupNavigationBar()
